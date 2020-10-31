@@ -9,7 +9,7 @@ const app = express();
 // Using these credentials, we send the mail using /send endpoint.
 // I have hardcoded the receiver's mail, subject and mail text for now but this data can also be obtained at
 // runtime using front end forms while making the request.
-
+// While adding the authorised redirect URI, add the base URL of your domain because I redirect the code there. (Ref Line 94)
 
 let fileData, tokenData;
 function read(callback){
